@@ -8,7 +8,7 @@ servicio para evitar el problema de bloqueo de cors en la api de google maps
 
 ## Como usar esta wea
 
-#### Get all items
+####
 
 ```http
   GET https://cors-anywhere-cqg8.onrender.com/?location=23.7499549,-99.1264672&radius=50&key=[key]

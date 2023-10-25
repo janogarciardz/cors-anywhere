@@ -5,7 +5,7 @@ const axios = require("axios");
 
 app.get("/", (req, res) => {
   const { location, radius, key } = req.query;
-
+  console.log("query:", location, radius);
   axios
     .get(
       `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${location}&radius=${radius}&key=${key}`
